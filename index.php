@@ -67,10 +67,21 @@
     </div>
 
     <!-- Title -->
-    <h3 class="i-name">Vùng A</h3>
-
     <div class="container-fluid w-50 mt-5 mb-5">
-      <p>You can get help by contact Admin at <a href="">polka@gmail.com</a></p>
+
+      <h3 class="title">Vùng A</h3>
+
+      <?php
+      date_default_timezone_set("Asia/Ho_Chi_Minh");
+
+      $timestamp = time();
+
+      $today = date("d/m/y" . "-" . "h:ia", $timestamp);
+
+
+      echo "<h3 class='title'>$today</h3>";
+
+      ?>
     </div>
   </section>
 
@@ -80,11 +91,18 @@
   </section>
 
 
+
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src=" https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
   </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+
+  <script>
+    $("#menu-btn").click(function() {
+      $("#menu").toggleClass("active");
+    });
+  </script>
 </body>
 
 </html>
