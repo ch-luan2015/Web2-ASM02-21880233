@@ -18,13 +18,20 @@
   <!-- SideBar -->
   <section id="menu">
     <div class="logo">
-      <img src="../images/logo.jpeg" alt="logo" />
+      <img src="../css/styles.css" alt="logo" />
       <h2>Lập Trình Web 2</h2>
     </div>
 
-
-    <?php include_once(ROOT . "components/sidebar/sidebar.php"); ?>
-
+    <div class="items">
+      <li>
+        <i class="fas fa-laptop"></i>
+        <a href="index.html">Bài 01</a>
+      </li>
+      <li>
+        <i class="fas fa-laptop"></i>
+        <a href="index.html">Bài 02</a>
+      </li>
+    </div>
   </section>
 
   <!-- Interface -->
@@ -46,7 +53,7 @@
       <!-- Profile -->
       <div class="profile">
         <i class="far fa-bell"></i>
-        <img src="../images/avatarGau.jpeg" alt="avatar" />
+        <img src="./images/avatarGau.jpeg" alt="avatar" />
       </div>
     </div>
 

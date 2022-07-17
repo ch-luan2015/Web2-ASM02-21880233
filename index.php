@@ -14,7 +14,9 @@
 </head>
 
 <body>
-
+  <?php
+  include_once("config.php");
+  ?>
   <!-- SideBar -->
   <section id="menu">
     <div class="logo">
@@ -22,22 +24,8 @@
       <h2>Lập Trình Web 2</h2>
     </div>
 
-    <div class="items">
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai01/index.php">Bài 01</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai02/index.php">Bài 02</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai03/index.php">Bài 03</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai05/index.php">Bài 04</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai05/index.php">Bài 05</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai06/index.php">Bài 06</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai07/index.php">Bài 07</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai08/index.php">Bài 08</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai09/index.php">Bài 09</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai10/index.php">Bài 10</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai11/index.php">Bài 11</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai12/index.php">Bài 12</a></li>
-      <li><i class="fas fa-laptop"></i><a href="./21880233_Bai13/index.php">Bài 13</a></li>
+    <?php include_once(ROOT . "components/sidebar/sidebar.php"); ?>
 
-    </div>
   </section>
 
   <!-- Interface -->
@@ -119,7 +107,7 @@
                       <p class="mb-0">Blog</p>
                     </div>
                     <div class="col-sm-9">
-                      <a href="https://chinhluan.io" class="text-muted mb-0 color-blue"><i class="fas fa-blog mr-2"></i>
+                      <a href="https://chinhluan.io" target="blank" class="text-muted mb-0 color-blue"><i class="fas fa-blog mr-2"></i>
                         chinhluan.io</a>
                     </div>
                   </div>
@@ -129,7 +117,7 @@
                       <p class="mb-0">Github</p>
                     </div>
                     <div class="col-sm-9">
-                      <a href="https://github.com/ch-luan2015" class="text-muted mb-0"><i class="fab fa-github fa-lg mr-2" style="color: #333333;"></i>
+                      <a href="https://github.com/ch-luan2015" target="blank" class="text-muted mb-0"><i class="fab fa-github fa-lg mr-2" style="color: #333333;"></i>
                         ch-luan2015</a>
                     </div>
                   </div>
@@ -139,7 +127,7 @@
                       <p class="mb-0"> Facebook</p>
                     </div>
                     <div class="col-sm-9">
-                      <a href="https://www.facebook.com/chinhluan" class="text-muted mb-0">
+                      <a href="https://www.facebook.com/chinhluan" target="blank" class="text-muted mb-0">
                         <i class="fab fa-facebook mr-2"></i>
                         facebook.com/chinhluan
                       </a>
