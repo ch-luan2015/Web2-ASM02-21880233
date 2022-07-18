@@ -23,7 +23,7 @@
     </div>
 
 
-    <?php include_once(ROOT . "components/sidebar/sidebar.php"); ?>
+    <?php include_once("../components/sidebar/sidebar.php") ?>
 
   </section>
 

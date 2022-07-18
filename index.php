@@ -14,9 +14,7 @@
 </head>
 
 <body>
-  <?php
-  include_once("config.php");
-  ?>
+
   <!-- SideBar -->
   <section id="menu">
     <div class="logo">
@@ -24,7 +22,7 @@
       <h2>Lập Trình Web 2</h2>
     </div>
 
-    <?php include_once(ROOT . "components/sidebar/sidebar.php"); ?>
+    <?php include_once("components/sidebar/sidebar.php") ?>
 
   </section>
 
