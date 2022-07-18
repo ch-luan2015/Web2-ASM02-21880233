@@ -17,13 +17,8 @@
 
   <!-- SideBar -->
   <section id="menu">
-    <div class="logo">
-      <img src="../images/logo.jpeg" alt="logo" />
-      <h2>Lập Trình Web 2</h2>
-    </div>
 
-
-    <?php include_once("../components/sidebar/sidebar.php") ?>
+    <?php include_once("../template/21880233_vungC.php") ?>
 
   </section>
 
@@ -62,10 +57,11 @@
 
       <?php
       $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-      $pattern = "/(_Bai)\w+/";
+      $pattern = "/(_Bai)[0-9]{0,2}/i";
       $text = preg_match($pattern, $actual_link);
-      echo "<h3 class='title'>Bài  $actual_link $text</h3>";
+      echo "<h3 class='title'>Bài $text</h3>";
       ?>
+
       <section style="background-color: #eee;" class="mt-4">
         <div class="container">
           <div class="row">

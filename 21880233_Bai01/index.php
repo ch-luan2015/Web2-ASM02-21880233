@@ -17,11 +17,6 @@
 
   <!-- SideBar -->
   <section id="menu">
-    <div class="logo">
-      <img src="../images/logo.jpeg" alt="logo" />
-      <h2>Lập Trình Web 2</h2>
-    </div>
-
 
     <?php include_once("../template/21880233_vungC.php") ?>
 
@@ -71,7 +66,11 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-8">
-
+              <ul>
+                <li>Chưa điều khiển được URL khi router giữa các pages, url bị nối thêm khi link từ menu page con sang 1 page con khác làm sai url</li>
+                <li>http://localhost:8080/Web2-ASM02-21880233/21880233_Bai01/index.php21880233_Bai02/index.php</li>
+                <li>Logo chưa cập nhật khi chuyển từ trang chủ sang các trang con do sai url, và khó cấu hình khi vùng C dùng chung</li>
+              </ul>
             </div>
             <div class="col-lg-4">
               <div class="card mb-4">

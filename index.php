@@ -15,9 +15,11 @@
 
 <body>
 
+
   <!-- SideBar -->
   <section id="menu">
-    <?php include_once("template/21880233_vungC.php") ?>
+
+    <?php include_once("template/21880233_vungC.php"); ?>
   </section>
 
   <!-- Interface -->
@@ -133,7 +135,7 @@
             <div class="col-lg-4">
               <div class="card mb-4">
                 <div class="card-body text-center">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
+                  <img src="images/NCL.jpg" alt="avatar" class="rounded-circle img-fluid" style="width: 150px;">
                   <h5 class="my-3">Nguyễn Chính Luận</h5>
                   <p class="text-muted mb-1">Hồ Chí Minh</p>
 

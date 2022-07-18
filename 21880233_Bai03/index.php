@@ -17,21 +17,11 @@
 
   <!-- SideBar -->
   <section id="menu">
-    <div class="logo">
-      <img src="../css/styles.css" alt="logo" />
-      <h2>Lập Trình Web 2</h2>
-    </div>
+ 
 
-    <div class="items">
-      <li>
-        <i class="fas fa-laptop"></i>
-        <a href="index.html">Bài 01</a>
-      </li>
-      <li>
-        <i class="fas fa-laptop"></i>
-        <a href="index.html">Bài 02</a>
-      </li>
-    </div>
+
+    <?php include_once("../template/21880233_vungC.php") ?>
+
   </section>
 
   <!-- Interface -->
@@ -53,7 +43,7 @@
       <!-- Profile -->
       <div class="profile">
         <i class="far fa-bell"></i>
-        <img src="./images/avatarGau.jpeg" alt="avatar" />
+        <img src="../images/avatarGau.jpeg" alt="avatar" />
       </div>
     </div>
 
@@ -66,6 +56,14 @@
 
       echo "<h3 class='title'>$today</h3>";
       ?>
+
+      <?php
+      $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+      $pattern = "/(_Bai)[0-9]{0,2}/i";
+      $text = preg_match($pattern, $actual_link);
+      echo "<h3 class='title'>Bài $text</h3>";
+      ?>
+
       <section style="background-color: #eee;" class="mt-4">
         <div class="container">
           <div class="row">
