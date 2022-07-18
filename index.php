@@ -17,13 +17,7 @@
 
   <!-- SideBar -->
   <section id="menu">
-    <div class="logo">
-      <img src="./images/stock.png" alt="logo" />
-      <h2>Lập Trình Web 2</h2>
-    </div>
-
-    <?php include_once("components/sidebar/sidebar.php") ?>
-
+    <?php include_once("template/21880233_vungC.php") ?>
   </section>
 
   <!-- Interface -->
@@ -58,6 +52,7 @@
 
       echo "<h3 class='title'>$today</h3>";
       ?>
+
       <section style="background-color: #eee;" class="mt-4">
         <div class="container">
           <div class="row">
@@ -153,13 +148,9 @@
 
   </section>
 
-  <!-- Footer -->
-  <section id="footer">
-    <h3 class="footer_title"> © <?php echo date("Y") ?> </h3>
-    <h3 class="footer_title"> Nguyễn Chính Luận - 21880233 </h3>
-    <h3 class="footer_title"> chinhluan2020@gmail.com</h3>
-
-  </section>
+  <?php
+  include("template/21880233_vungD.php")
+  ?>
 
 
 
