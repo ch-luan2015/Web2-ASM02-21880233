@@ -18,8 +18,7 @@
 
   <!-- SideBar -->
   <section id="menu">
-
-    <?php include_once("template/21880233_vungC.php"); ?>
+    <?php include("template/21880233_vungC.php"); ?>
   </section>
 
   <!-- Interface -->
